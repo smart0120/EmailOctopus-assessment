@@ -28,8 +28,8 @@ A simple PHP-based mailing list management system with RESTful API and web inter
 
 1. **Clone or download the project**
    ```bash
-   git clone <repository-url>
-   cd mailing-list-api
+   git clone https://github.com/smart0120/EmailOctopus-assessment
+   cd EmailOctopus-assessment
    ```
 
 2. **Set up the database**
@@ -133,7 +133,7 @@ curl -X DELETE http://localhost:8000/api/contacts/1
 ## Project Structure
 
 ```
-mailing-list-api/
+EmailOctopus-assessment/
 ├── config/
 │   └── database.php          # Database configuration
 ├── src/
